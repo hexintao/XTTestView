@@ -1,0 +1,6 @@
+framework module XTTestView {
+  umbrella header "XTTestView-umbrella.h"
+
+  export *
+  module * { export * }
+}

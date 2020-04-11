@@ -1,0 +1,22 @@
+{
+  "name": "XTTestView",
+  "version": "0.1.0",
+  "summary": "A short description of XTTestView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hexintao/XTTestView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hexintao": "hexintao521@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hexintao/XTTestView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XTTestView/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_XTTestView_Example {
+  umbrella header "Pods-XTTestView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

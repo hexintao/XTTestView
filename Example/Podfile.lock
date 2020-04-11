@@ -1,0 +1,16 @@
+PODS:
+  - XTTestView (0.1.0)
+
+DEPENDENCIES:
+  - XTTestView (from `../`)
+
+EXTERNAL SOURCES:
+  XTTestView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XTTestView: 096910226f7db7ed5c91b8e225bdea5e304d7095
+
+PODFILE CHECKSUM: bbbe5bb3804a2735a892277cc2c45d86880059b1
+
+COCOAPODS: 1.9.1
