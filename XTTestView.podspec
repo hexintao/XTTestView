@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '一个测试的二进制库'
 
   s.homepage         = 'https://github.com/hexintao/XTTestView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,16 +26,20 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/hexintao/XTTestView.git', :tag => s.version.to_s }
   # s.source           = { :git => '/Users/hexintao/Desktop/Demo/XTTestView', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XTTestView/Classes/**/*'
+  if ENV['isSource']
+    s.source_files = 'XTTestView/Classes/**/*'
+  else
+    s.source_files = 'XTTestView/Classes/**/*.h'
+    s.vendored_libraries = 'XTTestView/Products/XTTestView.a'
+  end
   
   # s.resource_bundles = {
   #   'XTTestView' => ['XTTestView/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
