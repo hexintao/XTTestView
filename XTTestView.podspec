@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     s.source_files = 'XTTestView/Classes/**/*'
   else
     s.source_files = 'XTTestView/Classes/**/*.h'
-    s.vendored_libraries = 'XTTestView/Products/XTTestView.a'
+    s.vendored_libraries = 'XTTestView/Products/libXTTestView.a'
   end
   
   # s.resource_bundles = {
