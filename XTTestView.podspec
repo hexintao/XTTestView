@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hexintao' => 'hexintao521@hotmail.com' }
   s.source           = { :git => 'https://github.com/hexintao/XTTestView.git', :tag => s.version.to_s }
+  # s.source           = { :git => '/Users/hexintao/Desktop/Demo/XTTestView', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +37,7 @@ TODO: Add long description of the pod here.
   #   'XTTestView' => ['XTTestView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
